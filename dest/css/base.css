@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf"); }
+@font-face {
+  font-family: "HortensiaC Regular";
+  src: url("../fonts/HortensiaC Regular/HortensiaC Regular.otf"); }
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("../fonts/Lato/Lato-Semibold.ttf"); }
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato/Lato-Regular.ttf"); }
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato/Lato-Light.ttf"); }
+@font-face {
+  font-family: "Lato-Medium";
+  src: url("../fonts/Lato/Lato-Medium.ttf"); }
+html {
+  font-family: Arial;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%; }
+
+body {
+  font-size: 17px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  min-height: 100%;
+  min-height: 1701px;
+  background: url(../img/background2.jpg), url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+
+ul, li, h1, h2, h3, h4, p, img, a,
+input, label, button, address {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+.wrapper {
+  height: 100%;
+  margin: 0 auto;
+  background: #fbfbf9; }
+
+header {
+  min-height: 475px; }
+
+main {
+  min-height: 1025px; }
+
+/*# sourceMappingURL=base.css.map */

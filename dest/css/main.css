@@ -1,0 +1,245 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PT_Sans/PT_Sans-Web-Regular.ttf"); }
+@font-face {
+  font-family: "HortensiaC Regular";
+  src: url("../fonts/HortensiaC Regular/HortensiaC Regular.otf"); }
+@font-face {
+  font-family: "Lato-Semibold";
+  src: url("../fonts/Lato/Lato-Semibold.ttf"); }
+@font-face {
+  font-family: "Lato-Regular";
+  src: url("../fonts/Lato/Lato-Regular.ttf"); }
+@font-face {
+  font-family: "Lato-Light";
+  src: url("../fonts/Lato/Lato-Light.ttf"); }
+@font-face {
+  font-family: "Lato-Medium";
+  src: url("../fonts/Lato/Lato-Medium.ttf"); }
+main .container {
+  margin-top: 3rem;
+  min-height: 450px; }
+
+.main-left-side {
+  border: 1px solid #d0d9de;
+  min-height: 530px; }
+  .main-left-side--header {
+    width: 100%;
+    text-align: center;
+    background: #3789cc;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lato-Regular";
+    font-size: 1.06rem;
+    padding: 1rem 0; }
+  .main-left-side--content {
+    padding-left: 1rem;
+    font-family: "PT Sans"; }
+    .main-left-side--content p, .main-left-side--content a {
+      margin-top: 2rem;
+      padding-right: 1rem;
+      overflow: hidden;
+      max-height: 125px; }
+    .main-left-side--content a {
+      display: block;
+      color: #df114f;
+      margin-bottom: 2rem;
+      cursor: pointer; }
+
+.main-right-side {
+  border: 1px solid #d0d9de;
+  min-height: 530px; }
+  .main-right-side--header {
+    width: 100%;
+    text-align: center;
+    background: #3789cc;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lato-Regular";
+    font-size: 1.06rem;
+    padding: 1rem 0; }
+  .main-right-side a {
+    font-family: "PT Sans";
+    padding-top: 3rem;
+    margin: 0 1.5rem;
+    display: block;
+    color: #df114f;
+    cursor: pointer; }
+
+.main-left-side--medics .medics-img {
+  box-sizing: border-box;
+  padding: 2rem 4rem .5rem;
+  height: 215px; }
+  .main-left-side--medics .medics-img .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: url(../img/our-specs.jpg), #7c6a68; }
+    .main-left-side--medics .medics-img .image-container span {
+      font-size: 1.7rem;
+      position: absolute;
+      color: #008eb2;
+      top: 50%;
+      transform: translateY(-50%); }
+    .main-left-side--medics .medics-img .image-container span.arrow-left {
+      left: -30px; }
+    .main-left-side--medics .medics-img .image-container span.arrow-right {
+      right: -30px; }
+
+.medics-summary, .medics-about {
+  text-align: center;
+  padding: 2rem 0; }
+
+.medics-summary {
+  margin: 0 5rem;
+  font-size: 1.06rem;
+  color: #4c4c4c;
+  font-family: "Lato-Light";
+  border-bottom: 1px solid #008eb2; }
+  .medics-summary span.medics-name {
+    color: #000; }
+
+.medics-about {
+  overflow: hidden;
+  max-height: 120px;
+  font-family: "PT Sans";
+  margin: 0 1.5rem; }
+
+.main-gallery--header {
+  width: 93%;
+  margin: 1rem 6rem 1rem 1rem;
+  font-size: 2.06rem;
+  font-family: "HortensiaC Regular";
+  color: #354d7b;
+  border-bottom: 1px solid #354d7b; }
+.main-gallery-all {
+  font-size: 0;
+  width: 100%;
+  min-height: 560px; }
+
+.main-gallery-all--item {
+  font-family: "Lato-Regular";
+  margin: 1rem;
+  width: 20.7%;
+  min-height: 235px;
+  display: inline-block; }
+  .main-gallery-all--item__img {
+    width: 100%;
+    height: 170px; }
+    .main-gallery-all--item__img .img-container__one {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-1.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__two {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-2.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__three {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-3.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__four {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-4.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__five {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-5.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__six {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-6.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__seven {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-7.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+    .main-gallery-all--item__img .img-container__eight {
+      width: 100%;
+      height: 100%;
+      background: url(../img/main-gallery/gallery-8.jpg);
+      background-repeat: no-repeat;
+      -webkit-background-size: cover;
+      background-size: cover;
+      background-position: center; }
+  .main-gallery-all--item__description {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 1.06rem;
+    color: #000;
+    width: 100%;
+    height: 25px;
+    font-family: "Lato-Regular"; }
+
+.main-appointment .image-container {
+  position: relative;
+  width: 100%;
+  height: 450px;
+  background: url(../img/background-appointment.jpg), #7c6a68;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+.main-appointment .inner-container {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  height: 300px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  background-position: center; }
+  .main-appointment .inner-container .main-appointment--header {
+    font-family: "Lato-Medium";
+    font-size: 1.76rem;
+    color: #354d7b;
+    border-bottom: 1px solid #354d7b;
+    padding: 2rem 0;
+    margin: 1rem 26%; }
+  .main-appointment .inner-container .main-appointment--text {
+    font-family: "Lato-Regular";
+    font-size: 2rem;
+    margin: 1rem 30%;
+    padding: 2rem 0;
+    color: #2d2d2d; }
+  .main-appointment .inner-container .main-appointment--btn {
+    font-size: 1.06rem;
+    color: #fff;
+    background: #f05282;
+    padding: .5rem 1.5rem;
+    border-radius: 30px;
+    box-shadow: none;
+    border: none; }
+
+/*# sourceMappingURL=main.css.map */

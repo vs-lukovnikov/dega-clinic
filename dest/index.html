@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title>Dega-clinic</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="container">
+                <div class="header-top row">
+                    <div class="header-top-logo col-lg-3 col-md-3 col-sm-3 col-xs-2">
+                        <div class="image-container"></div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-5 ">
+                        <div class="header-top-info clearfix row">
+                            <div class="header-top-info--workhours pull-left col-lg-8 col-md-8 col-sm-8 col-xs-12">
+                                График работы: пн-пт: с 8.30 до 20.00
+                                сб: с 9.00 до 18.00 b вс: выходной
+                            </div>
+                            <div class="header-top-info--socials pull-right col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                                <ul class="social-list">
+                                    <li class="social-list--item"><a href="#">VK</a></li>
+                                    <li class="social-list--item"><a href="#">Instagram</a></li>
+                                    <li class="social-list--item"><a href="#">Facebook</a></li>
+                                </ul>
+                                <span class="header-top-info--socials__mail"><a href="mailto:">med@clinica-dega.ru</a></span>
+                            </div>
+                            <div class="header-top-info--description pull-left col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                Консультация врачей высших квалификационных категорий
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-5">
+                        <div class="header-top-contacts row">
+                            <div class="header-top-contacts--phone">
+                                (8422) 97-46- 47
+                            </div>
+                            <div class="header-top-contacts--address">
+                                 <span class="glyphicon glyphicon-map-marker"></span>
+                                 г. Ульяновск, ул. Федерации, 52
+                            </div>
+                            <button class="header-top-contacts--appointment-btn" type="button">
+                                Записаться на прием
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <nav class="header-menu">
+                    <div class="container">
+                        <ul class="menu-bar">
+                            <li class="menu-bar--item"><a href="#">О нас</a></li>
+                            <li class="menu-bar--item"><a href="#">Специалисты</a></li>
+                            <li class="menu-bar--item active">
+                                <a href="">Косметология</a>
+                                <div class="sub-menu-container">
+                                    <div class="left-container pull-left">
+                                        <h4>Физиопроцедуры</h4>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu--item"><a href="">RF-лифтинг лицо и тело</a></li>
+                                            <li class="sub-menu--item"><a href="">Газожидкостный пилинг</a></li>
+                                            <li class="sub-menu--item"><a href="">Игольчатый липолиз</a></li>
+                                            <li class="sub-menu--item"><a href="">Лазеротерапия</a></li>
+                                            <li class="sub-menu--item"><a href="">Лазеная шлифовка</a></li>
+                                            <li class="sub-menu--item"><a href="">Лазерная эпиляция</a></li>
+                                            <li class="sub-menu--item"><a href="">Миостимуляция</a></li>
+                                            <li class="sub-menu--item"><a href="">Озонотерапия</a></li>
+                                            <li class="sub-menu--item"><a href="">Фонофорез</a></li>
+                                            <li class="sub-menu--item"><a href="">Фотосистема</a></li>
+                                            <li class="sub-menu--item"><a href="">Электропорация</a></li>
+                                            <li class="sub-menu--item"><a href="">Биоревитализация</a></li>
+                                            <li class="sub-menu--item"><a href="">Нитевой лифтин</a></li>
+                                            <li class="sub-menu--item"><a href="">Контурная пластика</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="right-container pull-right">
+                                        <h4>Мезотерапия</h4>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu--item"><a href="">Мезотерапия волос</a></li>
+                                            <li class="sub-menu--item"><a href="">Мезотерапия лица</a></li>
+                                            <li class="sub-menu--item"><a href="">Мезотерапия тела</a></li>
+                                        </ul>
+                                        <h4>Уходы</h4>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu--item"><a href="">Массаж по лицу</a></li>
+                                            <li class="sub-menu--item"><a href="">Уход Альпика</a></li>
+                                            <li class="sub-menu--item"><a href="">Уход Мария Галанд</a></li>
+                                            <li class="sub-menu--item"><a href="">Уход Натур Биссе</a></li>
+                                            <li class="sub-menu--item"><a href="">Уход Ультрасьютикалс</a></li>
+                                        </ul>
+                                        <h4>Депиляция</h4>
+                                        <ul class="sub-menu">
+                                            <li class="sub-menu--item"><a href="">Депиляция воск</a></li>
+                                            <li class="sub-menu--item"><a href="">Депиляция сахар</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="menu-bar--item"><a href="#">Медицина</a></li>
+                            <li class="menu-bar--item"><a href="#">Диагностика</a></li>
+                            <li class="menu-bar--item"><a href="#">Цены</a></li>
+                            <li class="menu-bar--item"><a href="#">Акции</a></li>
+                            <li class="menu-bar--item"><a href="#">Отзывы</a></li>
+                            <li class="menu-bar--item"><a href="#">Контакты</a></li>
+                        </ul>    
+                    </div>
+                </nav>                
+                <div class="header-slider">
+                    <div class="header-slider--one sliders showing row">
+                        <div class="header-slider--one__text col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                            <p class="text-head"><span class="special-offer">ВЕСЬ МАРТ !</span></p>
+                            <p class="text-head">
+                                <span class="special-prop">7 процедур RF-лифтинга</span> за
+                                <span class="special-offer">14 000 руб.</span> вместо <span class="special-offer">18 550 руб.!</span>
+                            </p>
+                            <p class="text-content">
+                                Кожа на лице, шее и подбородке подтягивается и разглаживается.
+                                Уменьшаются признаки целлюлита и локальных жировых отложений в
+                                области живота, талии и бёдер.
+                            </p>
+                            <p class="text-content">
+                                Запись на процедуру только после консультации специалиста!
+                            </p>
+                        </div>
+                        <div class="header-slider--one__img col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                            <div class="image-container"></div>
+                        </div>
+                    </div>
+                    <div class="header-slider--two sliders row">
+                        <div class="header-slider--two__img col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <div class="image-container"></div>
+                        </div>
+                        <div class="header-slider--two__text col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                            <p class="text-head"><span class="special-offer">ВЕСЬ МАРТ ! </span><span class="special-prop">Лазерная шлифовка!</span></p>
+                            <p class="text-head">
+                                Лицо – <span class="special-offer">6 000 руб.,</span> руки -
+                                <span class="special-offer">4 000 руб.,</span> декольте – 
+                                <span class="special-offer">5 000 руб.</span>
+                            </p>
+                            <p class="text-content">
+                                Кожа омолаживается, разглаживается, обретает ровный тон. 
+                                Удаляет или уменьшает рубцы и пигментные пятна.
+                            </p>
+                            <p class="text-content">
+                                Обязательна консультация специалиста!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <main>
+            <div class="container">
+                <div class="main-content row">
+                    <aside class="main-left-side col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <h3 class="main-left-side--header">О клинике</h3>
+                        <div class="main-left-side--content">
+                            <p>
+                                Многопрофильный центр эстетической медицины «Клиника ДЕГА» - ваш надежный проводник
+                                в мире красоты, здоровья, долголетия!
+                            </p>
+                            <p>
+                                Основным принципом нашей работы является
+                                индивидуальный подход к каждому Гостю нашей Клиники. В «Клинике ДЕГА» взаимодействие
+                                с пациентами основывается на взаимном доверии и уважении Ваших потребностей.
+                            </p>
+                            <p>
+                                Специалисты нашей Клиники — это доктора и кандидаты медицинских наук, которые
+                                постоянно расширяют границы своих профессиональных знаний, участвуя в
+                                международных конференциях по всему миру и занимаясь научной деятельностью
+                                в России. Именно специалисты «Клиники ДЕГА» помогут Вам стать по-настоящему
+                                здоровыми и красивыми.
+                            </p>
+                            <a href="#" class="main-left-side--link">Читать подробнее »</a>
+                        </div>
+                    </aside>
+                    <div class="main-gallery col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                        <h2 class="main-gallery--header">
+                            Популярное среди наших клиентов
+                        </h2>
+                        <div class="main-gallery-all">
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__one"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Прием врачей</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__two"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Косметология</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__three"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">УЗИ</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__four"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Анализы</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__five"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Гинекология, эндокринология</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__six"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Дерматология<br><br></div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__seven"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Функциональная диагностика</div>
+                            </div>
+                            <div class="main-gallery-all--item col-lg-3 col-md-3 col-sm-4 col-xs-6">
+                                <div class="main-gallery-all--item__img">
+                                    <div class="img-container__eight"></div>
+                                </div>
+                                <div class="main-gallery-all--item__description">Anti-age<br><br></div>
+                            </div>
+                        </div>
+                    </div>
+                    <aside class="main-right-side col-lg-3 col-md-3 col-sm-3 col-xs-12">
+                        <h3 class="main-left-side--header">Наши специалисты</h3>
+                        <div class="main-left-side--medics">
+                            <div class="medics-img">
+                                <div class="image-container">
+                                    <span class="arrow-right glyphicon glyphicon-triangle-right"></span>
+                                    <span class="arrow-left glyphicon glyphicon-triangle-left"></span>
+                                </div>
+                            </div>
+                            <p class="medics-summary">
+                                <span class="medics-name">Макаров Дмитрий Андреевич</span>
+                                Косметолог,<br>пластический хирург
+                            </p>
+                            <p class="medics-about">
+                                Дуэт пластического хирурга и косметолога – яркий тренд
+                                современной эстетической медицины, который реализуется
+                                в Клинике ДЕГА. К моменту окончания 
+                            </p>
+                        </div>
+                        <a href="#">Подробнее о специалисте »</a>
+                    </aside>
+                </div>
+                <div class="main-appointment container">
+                    <div class="image-container">
+                        <div class="inner-container">
+                            <p class="main-appointment--header">Запишитесь на приём без звонка и очередей!</p>
+                            <p class="main-appointment--text">
+                                Мы свяжемся с Вами в самое ближайшее время, 
+                                чтобы уточнить детали Вашего визита!
+                            </p>
+                            <button class="main-appointment--btn">Записаться на прием</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-menu">
+                <div class="container">
+                    <ul class="footer-menu-bar">
+                        <li class="footer-menu-bar--item"><a href="#">О нас</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Специалисты</a></li>
+                        <li class="footer-menu-bar--item active">
+                            <a href="">Косметология</a>
+                            <div class="sub-menu-container">
+                                <div class="left-container pull-left">
+                                    <h4>Физиопроцедуры</h4>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu--item"><a href="">RF-лифтинг лицо и тело</a></li>
+                                        <li class="sub-menu--item"><a href="">Газожидкостный пилинг</a></li>
+                                        <li class="sub-menu--item"><a href="">Игольчатый липолиз</a></li>
+                                        <li class="sub-menu--item"><a href="">Лазеротерапия</a></li>
+                                        <li class="sub-menu--item"><a href="">Лазеная шлифовка</a></li>
+                                        <li class="sub-menu--item"><a href="">Лазерная эпиляция</a></li>
+                                        <li class="sub-menu--item"><a href="">Миостимуляция</a></li>
+                                        <li class="sub-menu--item"><a href="">Озонотерапия</a></li>
+                                        <li class="sub-menu--item"><a href="">Фонофорез</a></li>
+                                        <li class="sub-menu--item"><a href="">Фотосистема</a></li>
+                                        <li class="sub-menu--item"><a href="">Электропорация</a></li>
+                                        <li class="sub-menu--item"><a href="">Биоревитализация</a></li>
+                                        <li class="sub-menu--item"><a href="">Нитевой лифтин</a></li>
+                                        <li class="sub-menu--item"><a href="">Контурная пластика</a></li>
+                                    </ul>
+                                </div>
+                                <div class="right-container pull-right">
+                                    <h4>Мезотерапия</h4>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu--item"><a href="">Мезотерапия волос</a></li>
+                                        <li class="sub-menu--item"><a href="">Мезотерапия лица</a></li>
+                                        <li class="sub-menu--item"><a href="">Мезотерапия тела</a></li>
+                                    </ul>
+                                    <h4>Уходы</h4>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu--item"><a href="">Массаж по лицу</a></li>
+                                        <li class="sub-menu--item"><a href="">Уход Альпика</a></li>
+                                        <li class="sub-menu--item"><a href="">Уход Мария Галанд</a></li>
+                                        <li class="sub-menu--item"><a href="">Уход Натур Биссе</a></li>
+                                        <li class="sub-menu--item"><a href="">Уход Ультрасьютикалс</a></li>
+                                    </ul>
+                                    <h4>Депиляция</h4>
+                                    <ul class="sub-menu">
+                                        <li class="sub-menu--item"><a href="">Депиляция воск</a></li>
+                                        <li class="sub-menu--item"><a href="">Депиляция сахар</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="footer-menu-bar--item"><a href="#">Медицина</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Диагностика</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Цены</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Акции</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Отзывы</a></li>
+                        <li class="footer-menu-bar--item"><a href="#">Контакты</a></li>
+                    </ul>    
+                </div>
+            </div>                
+            <div class="footer-bottom row">
+                <div class="container">
+                    <div class="footer-bottom-logo col-lg-3 col-md-3 col-sm-2 col-xs-2">
+                        <div class="image-container">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-5 col-xs-4">
+                        <div class="footer-bottom-info clearfix row">
+                            <div class="footer-bottom-info--workhours">
+                                График работы: пн-пт: с 8.30 до 20.00
+                                сб: с 9.00 до 18.00  вс: выходной
+                            </div>
+                            <div class="footer-bottom-info--license">
+                                Лицензия №ЛО-73- 01-001658 от 12.08.2016 г.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-5 col-xs-6">
+                        <div class="footer-bottom-contacts row clearfix">
+                            <div class="footer-bottom-info--socials pull-left col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                <ul class="social-list">
+                                    <li class="social-list--item"><a href="#">VK</a></li>
+                                    <li class="social-list--item"><a href="#">Instagram</a></li>
+                                    <li class="social-list--item"><a href="#">Facebook</a></li>
+                                </ul>
+                                <span class="footer-bottom-info--socials__mail"><a href="mailto:">med@clinica-dega.ru</a></span>
+                            </div>
+                            <div class="footer-bottom-contacts--phone pull-right col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                (8422) 97-46- 47
+                            </div>
+                            <div class="footer-bottom-contacts--address pull-right col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                                    <span class="glyphicon glyphicon-map-marker"></span>
+                                    г. Ульяновск, ул. Федерации, 52
+                            </div>
+                            <div class="footer-bottom-contacts--copyrights col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                ООО «Эстетика», зарегистрировано Инспекцией Федеральной налоговой службы 
+                                по Ленинскому району г. Ульяновска. ИНН: 7325144456 ОГРН: 1167325057481
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="lib/jquery-3.2.1.min.js"></script>
+    <script src="lib/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

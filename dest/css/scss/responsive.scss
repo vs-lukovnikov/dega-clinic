@@ -1,0 +1,228 @@
+@import 'variables';
+@import 'fonts';
+
+
+
+@media screen and (max-width:767px)  {
+  body {
+    font-size: 14px;
+
+  }
+
+ .header-top-logo {
+    height: 80.49px;
+  }
+ 
+ .header-top-info--workhours {
+    padding-right: 1rem;
+  }  
+
+  .header-top-info--socials {
+    position: relative;
+    min-height: 30px;
+  }
+  .social-list, 
+  .header-top-info--socials__mail {
+    position: absolute;
+    top:12px;
+    width: 50%;
+    display: inline-block;
+    margin-left: -3px;
+  }
+  .social-list {
+    left: 5px;
+    top: -10px;
+  }
+
+  .header-top-info--socials__mail {
+    right:0;
+  }
+
+  .header-top-info--socials__mail a {
+    width: 57%;
+    height: 60%;
+  }
+
+  .header-top-info--description {
+    font-size: 1.2rem;
+  }
+
+  .header-top-contacts {
+    padding-right: 2rem;
+  }
+
+  .header-top-contacts--phone {
+    font-size: 3rem;
+
+  }
+
+  .header-top-contacts--phone {
+    font-size: 3rem;
+
+  }
+
+  .header-top-contacts--address {
+    font-size: 1.5rem;
+  }
+
+  .header-slider--one__text .text-content {
+    margin-top: 2rem;
+  }
+
+  .main-left-side {
+    min-height: 100px;
+  }
+
+  .main-left-side--medics .medics-img .image-container {
+    margin: 0 auto;
+    width: 22%;
+  }
+  .main-appointment .image-container {
+    height: 355px;
+  }
+  .main-appointment .inner-container {
+    height: 235px;
+  }
+
+  .footer-bottom .footer-bottom-logo {
+    height: 80px;
+  }
+
+  .footer-bottom-info--workhours {
+    width: 100%;
+  }  
+  
+  .footer-bottom-info--socials .social-list {
+    padding-left: 0rem;
+  }
+
+  .footer-bottom-info--socials__mail {
+    font-size: 1.5rem;
+    padding-left: 0;
+    margin-top: 3rem;
+    a {
+      width: 76%;
+    }
+  }
+
+  .footer-bottom-contacts--phone {
+    font-size: 2rem;
+  }
+  .footer-bottom-contacts--address {
+    font-size: 1.2rem;
+  }
+
+  .main-right-side {
+    border: 1px solid #d0d9de;
+    min-height: 460px;
+  }
+}
+
+
+@media screen and (min-width:768px) and  (max-width:991px)  {
+  body {
+    min-height: 1720px;
+  }
+
+  main {
+      min-height: 1000px;
+  }
+
+  .wrapper {
+    width: 85%;
+  }
+
+  .header-top-logo {
+      height: 80.49px;
+  }
+
+  .header-top-info--workhours {
+    padding-right: 1rem;
+  }  
+  
+  .header-top-info--socials__mail a {
+    width: 73%;
+  }
+
+  .header-top-info--description {
+    font-size: 1.4rem;
+  }
+
+  .header-top-contacts--appointment-btn {
+    width: 75%;
+  }
+
+  main .container {
+    min-height: 375px;
+  }
+
+  .main-gallery-all--item {
+    min-height: 145px;
+  }
+
+  .main-gallery-all--item__img {
+    height: 100px;
+  }
+  .main-appointment .image-container {
+    height: 357px;
+  }
+  .main-appointment .inner-container {
+    height: 250px;
+  }
+
+  .footer-bottom .footer-bottom-logo {
+    height: 77px;
+  }
+
+  .footer-bottom-info {
+    margin: 0 0 0 1rem;
+  }
+  .footer-bottom-info--workhours {
+    width: 100%;
+  }
+
+  .footer-bottom-info--socials .social-list,
+  .footer-bottom-info--socials__mail {
+    padding-left: 0rem;
+  }
+  .footer-bottom-info--socials__mail a {
+    width: 58%;
+  }
+  .footer-bottom-contacts--copyrights {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width:991px) and (max-width:1199px)  {
+  body {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    width: 85%;
+  }
+
+  .header-top-logo {
+    width: 241.25px;
+    height: 103.49px;
+  }
+
+  .header-top-info--socials__mail a {
+    width: 55%;
+  }
+
+}
+@media screen and (min-width:1200px)  {
+
+.wrapper {
+  max-width: 1190px;
+}
+
+}
+
+
+  
+
+
+
+ 
+
