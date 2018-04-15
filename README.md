@@ -2,5 +2,5 @@
 
 ## Landing page для клиники «Дега» ##
 
-1. Open file index.html in dest/index.html
+1. Open dest/index.html
 
